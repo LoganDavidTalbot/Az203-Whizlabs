@@ -1,0 +1,5 @@
+$keyName = "KeyName";
+$KeyUrl = (Get-AzureKeyVaultKey -VaultName keyvaultaz203logan -Name $keyName).Key.kid;
+echo $KeyUrl;
+
+(Get-AzKeyVaultSecret -vaultName "keyvaultaz203logan" -Name "az203lab").SecretValueText;
