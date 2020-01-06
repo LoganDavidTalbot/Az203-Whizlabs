@@ -1,0 +1,20 @@
+$resourcegroup = 'az-203-vm';
+$vmName = 'az-203lab';
+$keyVaultName = 'disk-vault';
+New-AzKeyVault -VaultName $keyVaultName -ResourceGroupName $resourcegroup -Location "West Europe";
+Set-AzKeyVaultAccessPolicy -VaultName $keyVaultName -ResourceGroupName $resourcegroup -EnabledForDiskEncryption;
+Get-AzureADUser -Top 10
+
+$userprinname="logan.talbot@capgemini.com";
+
+Set-AzureRmKeyVaultAccessPolicy -VaultName $keyVaultName -UserPrincipalName $userprinname -PermissionsToKeys create,import,delete,list,get;
+
+$keyEncrpytionKeyName = 'whizlabs-key';
+
+Add-AzureKeyVaultKey -VaultName $keyVaultName -Name $keyEncrpytionKeyName -Destination 'Software';
+
+$keyVaultResourceId = (Get-AzKeyVault -VaultName $keyVaultName -ResourceGroupName $resourcegroup).ResourceId;
+$diskEncryptionKeyVaultUrl = (Get-AzKeyVault -VaultName $keyVaultName -ResourceGroupName $resourcegroup).VaultUri;
+$keyEncryptionKeyUrl = (Get-AzKeyVault -VaultName $keyVaultName -ResourceGroupName $resourcegroup).Key.kid;
+
+Set-AzVMDiskEncryptionExtension -ResourceGroup $resourcegroup -VMName $vmName -DiskEncryptionKeyVaultUri $diskEncryptionKeyVaultUrl -DiskEncryptionKeyVaultId $keyVaultResourceId -KeyEncryptionKeyUrl $KeyEncryptionKeyUrl -KeyEncryptionKeyVaultId $KeyVaultResourceId
