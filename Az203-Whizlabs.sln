@@ -13,9 +13,38 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab - Azure Disk Encryption
 		disk ps.ps = disk ps.ps
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab - Azure Batch", "Lab - Azure Batch", "{462FB4E8-DB72-44AE-BD51-AD137EE2995E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure Portal", "Azure Portal", "{8FA0D635-3659-43A3-A0B0-1AC79C80AC25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure CLI", "Azure CLI", "{EAFB0EF4-BB72-4982-B3FF-11A55E084BD8}"
+	ProjectSection(SolutionItems) = preProject
+		cli.txt = cli.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DotNet", "DotNet", "{E795C548-4766-4CF6-9F4D-85BA364AE478}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatchApp", "BatchApp\BatchApp.csproj", "{70F06EAD-B597-4C3D-8272-9AB8D4702415}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70F06EAD-B597-4C3D-8272-9AB8D4702415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70F06EAD-B597-4C3D-8272-9AB8D4702415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70F06EAD-B597-4C3D-8272-9AB8D4702415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70F06EAD-B597-4C3D-8272-9AB8D4702415}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8FA0D635-3659-43A3-A0B0-1AC79C80AC25} = {462FB4E8-DB72-44AE-BD51-AD137EE2995E}
+		{EAFB0EF4-BB72-4982-B3FF-11A55E084BD8} = {462FB4E8-DB72-44AE-BD51-AD137EE2995E}
+		{E795C548-4766-4CF6-9F4D-85BA364AE478} = {462FB4E8-DB72-44AE-BD51-AD137EE2995E}
+		{70F06EAD-B597-4C3D-8272-9AB8D4702415} = {8FA0D635-3659-43A3-A0B0-1AC79C80AC25}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3DDA3530-9F24-44F4-982D-6750A66399DC}

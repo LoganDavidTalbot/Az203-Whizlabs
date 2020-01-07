@@ -1,0 +1,9 @@
+az batch account create --resource-group whizlabs-rg --name whizlabsaccount --location "West Europe"
+//az batch application create --resource-group whizlabs-rg --name whizlabsaccount --application-id whizlabsapp --display-name "Whizlabs App" 
+az batch application create --resource-group whizlabs-rg --name whizlabsaccount --application-name whizlabsapp
+az batch application package create --resource-group whizlabs-rg --name whizlabsaccount --application-name whizlabsapp --package-file BatchApp.zip --version 1.0
+az batch account login --resource-group whizlabs-rg --name whizlabsaccount --shared-key-auth
+az batch pool create --id whizlabpool --os-family 4 --target-dedicated 1 --vm-size small --application-package-references whizlabsapp
+az batch pool set --pool-id whizlabpool --metadata IsWindows=true VMSize=StandardA1
+az batch job create --id whizlabsjob --pool-id whizlabpool
+az batch task create --job-id whizlabsjob --task-id whizlabstask --application-package-references whizlabsapp --command-line "cmd /c %AZ_BATCH_APP_PACKAGE_WHIZLABSAPP%\\BatchApp.exe"
