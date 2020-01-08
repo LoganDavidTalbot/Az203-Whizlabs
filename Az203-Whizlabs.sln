@@ -28,6 +28,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatchApp", "BatchApp\BatchA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatchConsole", "BatchConsole\BatchConsole.csproj", "{8B6FD1EB-C32F-4611-8A0D-85835646EEE9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab - .NET Core and Deployment", "Lab - .NET Core and Deployment", "{54412128-B2C6-499D-80E7-AE75C8327ABE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab - Dockerize .Net Core Apps", "Lab - Dockerize .Net Core Apps", "{B0714083-7842-4DD1-B68B-5DA9997558AA}"
+	ProjectSection(SolutionItems) = preProject
+		dockerfile.txt = dockerfile.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

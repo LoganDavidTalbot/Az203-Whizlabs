@@ -1,0 +1,5 @@
+sudo az acr login --name whizlabsreg
+sudo docker pull nginx
+
+sudo docker tag nginx whizlabsreg.azurecr.io/nginx:1v
+sudo docker push whizlabsreg.azurecr.io/nginx:1v
