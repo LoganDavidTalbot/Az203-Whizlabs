@@ -21,7 +21,7 @@ namespace CosmosSQL
             //CreateDocument().Wait();
             //QueryDocument().Wait();
             //UpdateDocument().Wait();
-            DeleteDocument().Wait();
+            //DeleteDocument().Wait();
             Console.ReadKey();
         }
 

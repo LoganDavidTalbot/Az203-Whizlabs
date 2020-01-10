@@ -28,6 +28,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab - Cosmos DB", "Lab - Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosSQL", "Lab - Cosmos DB\CosmosSQL\CosmosSQL.csproj", "{CC63B0EF-0CC5-44B8-B1FC-48972821E00C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosTableApi", "Lab - Cosmos DB\CosmosTableApi\CosmosTableApi.csproj", "{96D99F72-954F-46A1-85B0-335DE8450B1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +52,10 @@ Global
 		{CC63B0EF-0CC5-44B8-B1FC-48972821E00C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC63B0EF-0CC5-44B8-B1FC-48972821E00C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC63B0EF-0CC5-44B8-B1FC-48972821E00C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96D99F72-954F-46A1-85B0-335DE8450B1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96D99F72-954F-46A1-85B0-335DE8450B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96D99F72-954F-46A1-85B0-335DE8450B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96D99F72-954F-46A1-85B0-335DE8450B1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +68,7 @@ Global
 		{8B6FD1EB-C32F-4611-8A0D-85835646EEE9} = {E795C548-4766-4CF6-9F4D-85BA364AE478}
 		{217D2D1E-16D2-4E68-90D2-BEBDEF614439} = {010426AD-39F6-49DE-B700-D5332AAC1C80}
 		{CC63B0EF-0CC5-44B8-B1FC-48972821E00C} = {E99088E3-01D6-405C-B894-C3CB3ADBC787}
+		{96D99F72-954F-46A1-85B0-335DE8450B1E} = {E99088E3-01D6-405C-B894-C3CB3ADBC787}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3DDA3530-9F24-44F4-982D-6750A66399DC}
