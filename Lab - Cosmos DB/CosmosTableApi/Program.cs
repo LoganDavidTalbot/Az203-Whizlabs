@@ -14,7 +14,6 @@ namespace CosmosTableApi
         static string azuretable_conn_string = "DefaultEndpointsProtocol=https;AccountName=whizlabsstore;AccountKey=LPHKW9AAxAVo5Oro3ue4EuWkfHNARLHt0YYq4etLhy/QTE+c7MK0TsF7Ogn83IgtGZaaswgPefk34I4/wHPWyA==;EndpointSuffix=core.windows.net";
         static void Main(string[] args)
         {
-            string connectionstring = "";
             
             //CreateTable(cosmosdb_conn_string, "Customer");
             //CreateTable(azuretable_conn_string, "Customer");

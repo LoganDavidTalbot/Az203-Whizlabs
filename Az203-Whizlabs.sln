@@ -14,8 +14,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure CLI", "Azure CLI", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DotNet", "DotNet", "{E795C548-4766-4CF6-9F4D-85BA364AE478}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab - .NET Core and Deployment", "Lab - .NET Core and Deployment", "{54412128-B2C6-499D-80E7-AE75C8327ABE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatchApp", "Lab - Azure Batch\Azure Portal\BatchApp\BatchApp.csproj", "{70F06EAD-B597-4C3D-8272-9AB8D4702415}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatchConsole", "Lab - Azure Batch\DotNet\BatchConsole\BatchConsole.csproj", "{8B6FD1EB-C32F-4611-8A0D-85835646EEE9}"
@@ -39,6 +37,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab - BLOB Storage", "Lab - BLOB Storage", "{2EC0C585-95E7-40A6-BDB8-0F4FC8618C8B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlobStorage", "Lab - BLOB Storage\BlobStorage\BlobStorage.csproj", "{B94728EC-379C-4F02-8CC4-E3DD1976EDC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab - Managed Service Identity", "Lab - Managed Service Identity", "{92B3FAA1-5B2F-489C-8F13-436C34A59CE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSIApp", "Lab - Managed Service Identity\MSIApp\MSIApp.csproj", "{FFF8B728-2FBF-4AD4-8848-E2E0429B8E56}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -78,6 +80,10 @@ Global
 		{B94728EC-379C-4F02-8CC4-E3DD1976EDC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B94728EC-379C-4F02-8CC4-E3DD1976EDC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B94728EC-379C-4F02-8CC4-E3DD1976EDC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFF8B728-2FBF-4AD4-8848-E2E0429B8E56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF8B728-2FBF-4AD4-8848-E2E0429B8E56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF8B728-2FBF-4AD4-8848-E2E0429B8E56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF8B728-2FBF-4AD4-8848-E2E0429B8E56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -94,6 +100,7 @@ Global
 		{B171A676-94AB-4F48-BF53-9BC92E28A078} = {2C7C765B-32FD-4B1F-9A32-455072AA2986}
 		{31EF4E5E-227A-4B99-942D-EE900899782A} = {2C7C765B-32FD-4B1F-9A32-455072AA2986}
 		{B94728EC-379C-4F02-8CC4-E3DD1976EDC9} = {2EC0C585-95E7-40A6-BDB8-0F4FC8618C8B}
+		{FFF8B728-2FBF-4AD4-8848-E2E0429B8E56} = {92B3FAA1-5B2F-489C-8F13-436C34A59CE9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3DDA3530-9F24-44F4-982D-6750A66399DC}
