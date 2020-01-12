@@ -1,0 +1,5 @@
+# Queries person table with SAS Token
+https://whizlabsstore.table.core.windows.net/Person()?sv=2019-02-02&ss=t&srt=sco&sp=rwdlacu&se=2020-01-12T22:29:02Z&st=2020-01-12T14:29:02Z&spr=https&sig=UpNUpkgIs9BjV7bDM8%2Bzfuz5%2FEUiQKKbFqKLMoYTMqE%3D
+
+# Queries person table for spefic keys with SAS Token
+https://whizlabsstore.table.core.windows.net/Person(PartitionKey='1',RowKey='John')?sv=2019-02-02&ss=t&srt=sco&sp=rwdlacu&se=2020-01-12T22:29:02Z&st=2020-01-12T14:29:02Z&spr=https&sig=UpNUpkgIs9BjV7bDM8%2Bzfuz5%2FEUiQKKbFqKLMoYTMqE%3D

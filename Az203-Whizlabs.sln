@@ -44,6 +44,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSIApp", "Lab - Managed Ser
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSIVaultApp", "Lab - Managed Service Identity\MSIVaultApp\MSIVaultApp.csproj", "{3067288C-3847-4603-BEA0-7944131B71C5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab - Shared Access Signature", "Lab - Shared Access Signature", "{47467F53-02BF-4C60-9B57-1D642CF5EBE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SASApp", "SASApp\SASApp.csproj", "{0DCDDA53-316C-4526-A0C4-BDF14D00ED56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,6 +94,10 @@ Global
 		{3067288C-3847-4603-BEA0-7944131B71C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3067288C-3847-4603-BEA0-7944131B71C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3067288C-3847-4603-BEA0-7944131B71C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DCDDA53-316C-4526-A0C4-BDF14D00ED56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DCDDA53-316C-4526-A0C4-BDF14D00ED56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DCDDA53-316C-4526-A0C4-BDF14D00ED56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DCDDA53-316C-4526-A0C4-BDF14D00ED56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -108,6 +116,7 @@ Global
 		{B94728EC-379C-4F02-8CC4-E3DD1976EDC9} = {2EC0C585-95E7-40A6-BDB8-0F4FC8618C8B}
 		{FFF8B728-2FBF-4AD4-8848-E2E0429B8E56} = {92B3FAA1-5B2F-489C-8F13-436C34A59CE9}
 		{3067288C-3847-4603-BEA0-7944131B71C5} = {92B3FAA1-5B2F-489C-8F13-436C34A59CE9}
+		{0DCDDA53-316C-4526-A0C4-BDF14D00ED56} = {47467F53-02BF-4C60-9B57-1D642CF5EBE7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3DDA3530-9F24-44F4-982D-6750A66399DC}
