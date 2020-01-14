@@ -52,6 +52,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab - Redis Cache", "Lab - 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisCacheApp", "RedisCacheApp\RedisCacheApp.csproj", "{AD998D62-7D8E-4A0B-ACA1-9FB9D06E3BCF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab - Application Insights", "Lab - Application Insights", "{9511F4ED-BF79-4586-A0FC-B1B2890FBFDA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationInsights.SampleApp", "Lab - Application Insights\ApplicationInsights.SampleApp\ApplicationInsights.SampleApp.csproj", "{E2AACD51-01A8-4EF5-9600-491F18C7D3F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAndLoadTestApp", "Lab - Application Insights\WebAndLoadTestApp\WebAndLoadTestApp.csproj", "{FF25F31A-F9F7-486F-8722-6EBFEE7973E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F34FFD82-7CE2-4DC7-92D7-A05F4862EFD3}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -106,6 +117,14 @@ Global
 		{AD998D62-7D8E-4A0B-ACA1-9FB9D06E3BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD998D62-7D8E-4A0B-ACA1-9FB9D06E3BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD998D62-7D8E-4A0B-ACA1-9FB9D06E3BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2AACD51-01A8-4EF5-9600-491F18C7D3F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2AACD51-01A8-4EF5-9600-491F18C7D3F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2AACD51-01A8-4EF5-9600-491F18C7D3F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2AACD51-01A8-4EF5-9600-491F18C7D3F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF25F31A-F9F7-486F-8722-6EBFEE7973E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF25F31A-F9F7-486F-8722-6EBFEE7973E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF25F31A-F9F7-486F-8722-6EBFEE7973E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF25F31A-F9F7-486F-8722-6EBFEE7973E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -126,6 +145,9 @@ Global
 		{3067288C-3847-4603-BEA0-7944131B71C5} = {92B3FAA1-5B2F-489C-8F13-436C34A59CE9}
 		{0DCDDA53-316C-4526-A0C4-BDF14D00ED56} = {47467F53-02BF-4C60-9B57-1D642CF5EBE7}
 		{AD998D62-7D8E-4A0B-ACA1-9FB9D06E3BCF} = {198AB7EE-BF58-4ADC-838C-95AA87F6F8C5}
+		{E2AACD51-01A8-4EF5-9600-491F18C7D3F7} = {9511F4ED-BF79-4586-A0FC-B1B2890FBFDA}
+		{FF25F31A-F9F7-486F-8722-6EBFEE7973E8} = {9511F4ED-BF79-4586-A0FC-B1B2890FBFDA}
+		{F34FFD82-7CE2-4DC7-92D7-A05F4862EFD3} = {9511F4ED-BF79-4586-A0FC-B1B2890FBFDA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3DDA3530-9F24-44F4-982D-6750A66399DC}
