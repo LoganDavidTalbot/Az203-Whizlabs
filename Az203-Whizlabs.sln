@@ -67,6 +67,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab - Azure Search", "Lab -
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchApp", "Lab - Azure Search\SearchApp\SearchApp.csproj", "{5B332A3A-DCFF-4081-9D44-D1DCA756EDA5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab - Event Hub", "Lab - Event Hub", "{7A4D6722-13C8-49FB-8A45-CC739A3D4614}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubApp", "Lab - Event Hub\EventHubApp\EventHubApp.csproj", "{669FAA3B-6B77-4C0B-96F2-E71D42D12162}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -133,6 +137,10 @@ Global
 		{5B332A3A-DCFF-4081-9D44-D1DCA756EDA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B332A3A-DCFF-4081-9D44-D1DCA756EDA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B332A3A-DCFF-4081-9D44-D1DCA756EDA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{669FAA3B-6B77-4C0B-96F2-E71D42D12162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{669FAA3B-6B77-4C0B-96F2-E71D42D12162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{669FAA3B-6B77-4C0B-96F2-E71D42D12162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{669FAA3B-6B77-4C0B-96F2-E71D42D12162}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -157,6 +165,7 @@ Global
 		{FF25F31A-F9F7-486F-8722-6EBFEE7973E8} = {9511F4ED-BF79-4586-A0FC-B1B2890FBFDA}
 		{F34FFD82-7CE2-4DC7-92D7-A05F4862EFD3} = {9511F4ED-BF79-4586-A0FC-B1B2890FBFDA}
 		{5B332A3A-DCFF-4081-9D44-D1DCA756EDA5} = {4D458401-EFA8-4149-921F-DD81AAB2EB71}
+		{669FAA3B-6B77-4C0B-96F2-E71D42D12162} = {7A4D6722-13C8-49FB-8A45-CC739A3D4614}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3DDA3530-9F24-44F4-982D-6750A66399DC}
