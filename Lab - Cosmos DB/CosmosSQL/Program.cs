@@ -11,7 +11,7 @@ namespace CosmosSQL
     class Program
     {
         private static string endpointUrl = "https://whizlabs-cosmos.documents.azure.com:443/";
-        private static string authorizationKey = "8QXK8d4Emzjl3s942htQP1k6luUKaHjKdpfTn7BEZk7WfT6ne7m6do1kZ0lGtAj62ipcA9sOWiLyDvqbIU2IhQ==";
+        private static string authorizationKey = "";
         private static DocumentClient client;
         private static Database database;
         static void Main(string[] args)

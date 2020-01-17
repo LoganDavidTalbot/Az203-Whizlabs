@@ -12,9 +12,9 @@ namespace EventHubApp
     /// </summary>
     class Program
     {
-        private const string eventHubConnectionString = "Endpoint=sb://whizlabslogan.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=L97xJlmdunLkZ3zUAdyjNil1flEpblcWWHcauV2mqek=";
+        private const string eventHubConnectionString = "";
         private const string eventHubName = "whizlabshub";
-        private const string storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=storage20201111;AccountKey=oXHTDOl5O1jKsEkqxpy12CGhKzxCM9ytRlxgTMbfB4UiKtEnx+8xb9cw+8VSV3TuFXNjW6ZExOTh986N8J+xvQ==;EndpointSuffix=core.windows.net";
+        private const string storageConnectionString = "";
         static void Main(string[] args)
         {
             //SentMessage();

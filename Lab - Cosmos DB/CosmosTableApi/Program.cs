@@ -10,8 +10,8 @@ namespace CosmosTableApi
 {
     class Program
     {
-        static string cosmosdb_conn_string = "DefaultEndpointsProtocol=https;AccountName=whizlabstabledb;AccountKey=tFMRKDf6jPkfI8oQA36l8YIHq8G0Aw4a4dy2NKGuci2Qc4s0Di34CZRUQsL4TijiI5EttGx92jvfWRZl5wyp3A==;TableEndpoint=https://whizlabstabledb.table.cosmos.azure.com:443/;";
-        static string azuretable_conn_string = "DefaultEndpointsProtocol=https;AccountName=whizlabsstore;AccountKey=LPHKW9AAxAVo5Oro3ue4EuWkfHNARLHt0YYq4etLhy/QTE+c7MK0TsF7Ogn83IgtGZaaswgPefk34I4/wHPWyA==;EndpointSuffix=core.windows.net";
+        static string cosmosdb_conn_string = "";
+        static string azuretable_conn_string = "";
         static void Main(string[] args)
         {
             

@@ -10,7 +10,7 @@ namespace ServiceBusQueueApp
 {
     class Program
     {
-        const string ServiceBusConnectionString = "Endpoint=sb://whizlabs-sb1.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=+K1h90f6mGWMjBRZOcvM9j8KddP4KD5yhW+DJCJaODg=";
+        const string ServiceBusConnectionString = "";
         const string QueueName = "demo";
         static IQueueClient queueClient;
         static void Main(string[] args)

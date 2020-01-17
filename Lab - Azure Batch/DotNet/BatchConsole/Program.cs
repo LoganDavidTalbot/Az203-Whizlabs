@@ -12,7 +12,7 @@ namespace BatchConsole
     {
         private static string BatchAccountUrl = "https://whizlabsaccount.westeurope.batch.azure.com";
         private static string BatchAccountName = "whizlabsaccount";
-        private static string BatchAccountKey= "CHvtUkKAiUKXrIxLsGDyuB4a52zklcdx5Yo+QkWwh7N8KLyor9tYPLlchGijfrGhVKKndsLVuEF9DrmzjKRJVw==";
+        private static string BatchAccountKey= "";
 
         private const string PoolId = "Whizlabspool";
         static void Main(string[] args)

@@ -25,7 +25,7 @@ namespace SQLServer
             SqlConnectionStringBuilder conn = new SqlConnectionStringBuilder();
             conn.DataSource = "whizlabs-server.database.windows.net";
             conn.UserID = "logan";
-            conn.Password = "m4U2jtjB5a3e";
+            conn.Password = "***";
             conn.InitialCatalog = "whizlabsdb";
 
             using (SqlConnection connection = new SqlConnection(conn.ConnectionString))

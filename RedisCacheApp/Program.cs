@@ -10,7 +10,7 @@ namespace RedisCacheApp
 {
     class Program
     {
-        private static string conn_string = "whizlabsr.redis.cache.windows.net:6380,password=RUGxZYphg+J9dMkzZ6W2dCW5aNX7o5IXJbcBwJz2aOw=,ssl=True,abortConnect=False";
+        private static string conn_string = "";
         static void Main(string[] args)
         {
             IDatabase cache = lazyConnection.Value.GetDatabase();

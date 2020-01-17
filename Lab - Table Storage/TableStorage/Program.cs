@@ -10,7 +10,7 @@ namespace TableStorage
 {
     class Program
     {
-        static string conn_string = "DefaultEndpointsProtocol=https;AccountName=whizlabsstore;AccountKey=LPHKW9AAxAVo5Oro3ue4EuWkfHNARLHt0YYq4etLhy/QTE+c7MK0TsF7Ogn83IgtGZaaswgPefk34I4/wHPWyA==;EndpointSuffix=core.windows.net";
+        static string conn_string = "";
         static void Main(string[] args)
         {
             //CreateTable("Customer1");

@@ -10,7 +10,7 @@ namespace BlobStorage
 {
     class Program
     {
-        private static string conn_string = "DefaultEndpointsProtocol=https;AccountName=whizlabsstore;AccountKey=8CjlThv9HZxU5lgKSaYDrTuudMHz1YUk55beoKFYiaSoW2FJO/0UPtxfIwrhaf6BRyT6I7RQXIUVcHmTzheXdg==;EndpointSuffix=core.windows.net";
+        private static string conn_string = "";
         static void Main(string[] args)
         {
             //CreateContainer("whizlabsdemonew").GetAwaiter().GetResult();

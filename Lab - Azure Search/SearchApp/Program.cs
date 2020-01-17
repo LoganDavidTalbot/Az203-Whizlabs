@@ -11,7 +11,7 @@ namespace SearchApp
     class Program
     {
         private static string searchServiceName = "whizlabsearch";
-        private static string adminApiKey = "53080C7D9BBEFD30BB1D40EC6690EC86";
+        private static string adminApiKey = "";
         static void Main(string[] args)
         {
             //CreateIndex();

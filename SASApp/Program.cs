@@ -19,7 +19,7 @@ namespace SASApp
 
         private static string GetAccountSASToken()
         {
-            const string connectionString = "DefaultEndpointsProtocol=https;AccountName=whizlabsstore;AccountKey=8CjlThv9HZxU5lgKSaYDrTuudMHz1YUk55beoKFYiaSoW2FJO/0UPtxfIwrhaf6BRyT6I7RQXIUVcHmTzheXdg==;EndpointSuffix=core.windows.net";
+            const string connectionString = "";
             CloudStorageAccount cloudStorageAccount = CloudStorageAccount.Parse(connectionString);
 
             SharedAccessAccountPolicy policy = new SharedAccessAccountPolicy()

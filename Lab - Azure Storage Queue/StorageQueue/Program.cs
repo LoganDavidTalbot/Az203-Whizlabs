@@ -10,7 +10,7 @@ namespace StorageQueue
 {
     class Program
     {
-        private static string connectionString = "DefaultEndpointsProtocol=https;AccountName=whizlabsstore;AccountKey=LZ7cSyXEj/wk+teLXHKTkBxHyylgaK/1G4j/F/gF3xWugUqQ4mL5qikS27oVEQAT0orh4zsMys3RA2aw2YbWSA==;EndpointSuffix=core.windows.net";
+        private static string connectionString = "";
         static void Main(string[] args)
         {
             //CreateQueue();
