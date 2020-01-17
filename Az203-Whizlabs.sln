@@ -71,6 +71,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab - Event Hub", "Lab - Ev
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubApp", "Lab - Event Hub\EventHubApp\EventHubApp.csproj", "{669FAA3B-6B77-4C0B-96F2-E71D42D12162}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab - Azure Service Bus", "Lab - Azure Service Bus", "{E26CD11B-2C0D-49C6-B0A8-923D7554F85A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab - Azure Storage Queue", "Lab - Azure Storage Queue", "{BE35551B-3E91-4DE7-BA16-42D3F7FF08B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusQueueApp", "Lab - Azure Service Bus\ServiceBusQueueApp\ServiceBusQueueApp.csproj", "{66B84A4A-3EC5-49F7-AF07-25774DDB564A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +147,10 @@ Global
 		{669FAA3B-6B77-4C0B-96F2-E71D42D12162}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{669FAA3B-6B77-4C0B-96F2-E71D42D12162}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{669FAA3B-6B77-4C0B-96F2-E71D42D12162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66B84A4A-3EC5-49F7-AF07-25774DDB564A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B84A4A-3EC5-49F7-AF07-25774DDB564A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66B84A4A-3EC5-49F7-AF07-25774DDB564A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66B84A4A-3EC5-49F7-AF07-25774DDB564A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -166,6 +176,7 @@ Global
 		{F34FFD82-7CE2-4DC7-92D7-A05F4862EFD3} = {9511F4ED-BF79-4586-A0FC-B1B2890FBFDA}
 		{5B332A3A-DCFF-4081-9D44-D1DCA756EDA5} = {4D458401-EFA8-4149-921F-DD81AAB2EB71}
 		{669FAA3B-6B77-4C0B-96F2-E71D42D12162} = {7A4D6722-13C8-49FB-8A45-CC739A3D4614}
+		{66B84A4A-3EC5-49F7-AF07-25774DDB564A} = {E26CD11B-2C0D-49C6-B0A8-923D7554F85A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3DDA3530-9F24-44F4-982D-6750A66399DC}
